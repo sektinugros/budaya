@@ -13,18 +13,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Eksekusi query
     if ($koneksi->query($sql) === TRUE) {
+        // Tampilkan pop-up
         echo '<script>alert("Terima kasih atas masukkan Anda!");</script>';
+        // Arahkan ke halaman index.html setelah menutup pop-up
+        echo '<script>window.location.href = "index.html";</script>';
     } else {
         echo "Error: " . $sql . "<br>" . $koneksi->error;
     }
-}
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Ambil data dari formulir
-    $namaLengkap = $_POST["fullname"];
-    $email = $_POST["email"];
-    $nomorTelepon = $_POST["phone"];
-    $pesan = $_POST["pesan"];
-
-    // Simpan data ke file atau database jika diperlukan
 }
 ?>
