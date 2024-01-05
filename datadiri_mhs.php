@@ -56,7 +56,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 
-
 function fetchDataFromDatabase($conn)
 {
     $result = $conn->query("SELECT * FROM mahasiswa");
