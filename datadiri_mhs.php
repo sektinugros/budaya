@@ -291,7 +291,7 @@ $conn->close();
             }
         }
     </script>
-    <center><button class="btn" onclick="window.location.href='index.php'">KLIK Untuk Kembali Ke Halaman Utama <br>
+    <center><button class="btn" onclick="window.location.href='index.html'">KLIK Untuk Kembali Ke Halaman Utama <br>
             <b>Budaya Indonesia</b> </button></center>
 
 </body>

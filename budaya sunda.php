@@ -222,7 +222,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <h1><b>Lebih Mengenal Budaya Sunda</b></h1>
             </div>
             <ul>
-                <li><a href="index.php">Halaman Utama</a></li>
+                <li><a href="index.html">Halaman Utama</a></li>
                 <li><a href="budaya sunda.php">Budaya Sunda</a></li>
                 <li><a href="budaya jawa.php">Budaya Jawa</a></li>
                 <li><a href="datadiri_mhs.php">Informasi Kelompok</a></li>
@@ -454,7 +454,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </ol>
         </p>
         <button class="button2">
-            <p><b><a href="index.php">
+            <p><b><a href="index.html">
                         Kembali ke menu Keberagaman Budaya Indonesia</a></b></p>
         </button>
         <button class="button1">
@@ -497,7 +497,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="footer">
         <div class="footer2">
                 <ul>
-                    <li><a href="index.php">Halaman Utama</a></li>
+                    <li><a href="index.html">Halaman Utama</a></li>
                     <li><a href="budaya sunda.php">Budaya Sunda</a></li>
                     <li><a href="budaya jawa.php">Budaya Jawa</a></li>
                     <li><a href="datadiri_mhs.php">Informasi Kelompok</a></li>

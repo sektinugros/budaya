@@ -561,7 +561,7 @@
         <div class="footer">
             <div class="footer2">
                 <ul>
-                    <li><a href="index.php">Halaman Utama</a></li>
+                    <li><a href="index.html">Halaman Utama</a></li>
                     <li><a href="budaya sunda.php">Budaya Sunda</a></li>
                     <li><a href="budaya jawa.php">Budaya Jawa</a></li>
                     <li><a href="datadiri_mhs.php">Informasi Kelompok</a></li>
