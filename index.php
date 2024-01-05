@@ -18,4 +18,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Error: " . $sql . "<br>" . $koneksi->error;
     }
 }
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Ambil data dari formulir
+    $namaLengkap = $_POST["fullname"];
+    $email = $_POST["email"];
+    $nomorTelepon = $_POST["phone"];
+    $pesan = $_POST["pesan"];
+
+    // Simpan data ke file atau database jika diperlukan
+}
 ?>

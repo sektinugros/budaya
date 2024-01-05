@@ -140,7 +140,7 @@
                 <h1><b>Lebih Mengenal Budaya Jawa</b></h1>
             </div>
             <ul>
-                <li><a href="index.php">Halaman Utama</a></li>
+                <li><a href="index.html">Halaman Utama</a></li>
                 <li><a href="budaya sunda.php">Budaya Sunda</a></li>
                 <li><a href="budaya jawa.php">Budaya Jawa</a></li>
 
