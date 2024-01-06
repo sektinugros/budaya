@@ -1,12 +1,22 @@
+// script.js
+
 $(document).ready(function () {
-    // Efek animasi saat mouse masuk ke footer
-    $('.footer').mouseenter(function () {
-        $(this).animate({ opacity: 4 }, 'fast');
-    });
-
-    // Efek animasi saat mouse keluar dari footer
-    $('.footer').mouseleave(function () {
-        $(this).animate({ opacity: 1 }, 'fast');
-    });
-
-});
+    // Fungsi untuk mengatur animasi pada footer
+    function animateFooter() {
+      $(".footer2").addClass("animated fadeIn"); // Menambahkan kelas animated dan fadeIn dari Animate.css
+  
+      // Menambahkan event mouseover pada setiap link di footer
+      $(".footer2 a").mouseover(function () {
+        $(this).addClass("animated pulse"); // Menambahkan kelas animated dan pulse dari Animate.css
+      });
+  
+      // Menambahkan event mouseout pada setiap link di footer
+      $(".footer2 a").mouseout(function () {
+        $(this).removeClass("animated pulse"); // Menghapus kelas animated dan pulse
+      });
+    }
+  
+    // Memanggil fungsi animasi saat halaman selesai dimuat
+    animateFooter();
+  });
+  
